@@ -1,0 +1,41 @@
+Ruta para poner los codigos:
++ Other Locations/computer/var/www/html/SputnikT01
+
+etiqueta PHP
+<?php
+    //Aqui va el codigo
+?>
+
+el punto y coma ';' es una final de linea o secuencia
+
+index //es una palabra para archivo que un servidor lo toma como archivo principal
+
+Para actualizar de forma automaticamente el codigo Backend que se hace desde VSC
+Ir al link: https://chrome.google.com/webstore/search/live%20sever%20?hl=es
+Dar click en: Live Server Web Extension
+Luego en añadir extension.
+Ir al icono de arriba a la derecha y dar encima de la ficha de rompecabezas
+Dar click en: Live Server Web Extension
+Luego darle en Live Reload y activar, llenar los datos:
+Actual Server Address: http://localhost/
+Live Server Address: http://127.0.0.1:5500/
+Darle en aplicar
+Ese proceso anterior es principalmente para solo esa pagina.
+
+Luego hacer Go Live desde VSC.
+Luego ir a http://localhost/ y seguir la ruta para abrir el archivo que necesario
+
+Apache es el servidor
+
+En el discord esta en archivo.php hay un documento pdf con documentacion de comandos para PHP¿
+
+pagina para enlazar pagina y crear un servidor remoto: https://ngrok.com/
+darle en download y descargarlo en caso de windows en windows
+luego de descargarlo se extrae el archivo y se pone en el disco C y se va a xampp y en htdocs crea una carpeta
+en una carpeta que puede ponerla con nombre cualquier nombre y ahi pone el archivo descargado de ngrok
+se da doble click encima de ngrok y se corren los comandos
+
+
+ngrok config add-authtoken 2QU1HWnOdy0XtnnlB7nJz7hisqA_25aY5dAJcxN6pcw3TPmfG
+ngrok help
+ngrok http 80
